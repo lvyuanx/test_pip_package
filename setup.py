@@ -6,7 +6,7 @@ setup(
     author="Your Name",  # 作者名字
     author_email="you@example.com",  # 作者邮箱
     description="A short description of the package",  # 简短描述
-    long_description=open("README.md").read(),  # 长描述，通常是从README读取
+    long_description=open("README.md", encoding='utf-8').read(),  # 长描述，通常是从README读取
     long_description_content_type="text/markdown",  # 长描述的内容类型
     url="https://github.com/lvyuanx/test_pip_package",  # 项目主页URL
     packages=find_packages(),  # 自动发现包和子包
